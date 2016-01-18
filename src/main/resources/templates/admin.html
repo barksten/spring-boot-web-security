@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <body>
-Only sune and admin can view this page.
+Only aadmin can view this page.
 <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
 
 <div th:include="footer :: copy">...</div>

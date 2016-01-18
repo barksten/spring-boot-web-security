@@ -17,9 +17,11 @@ public class DaoUserDetailsService implements UserDetailsService {
     @Override public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         switch(username) {
             case "user":
-                return new User("user", "password", createAuthorities("USER"));
+                return new User("user", "user", createAuthorities("USER"));
             case "sune":
                 return new User("sune", "sune", createAuthorities("SUNE"));
+            case "admin":
+                return new User("admin", "admin", createAuthorities("ADMIN"));
             default:
                 return null;
         }

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class DaoUserDetailsService implements UserDetailsService {
+public class InMemoryUserDetailsService implements UserDetailsService {
 
     @Override public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         switch(username) {

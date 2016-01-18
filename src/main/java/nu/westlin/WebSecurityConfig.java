@@ -32,7 +32,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configureGlobal(AuthenticationManagerBuilder auth, UserDetailsService userDetailsService) throws Exception {
         auth
             .userDetailsService(userDetailsService).configure(auth);
-            /*.withUser("user").password("password").roles("USER")*/
-        ;
     }
 }

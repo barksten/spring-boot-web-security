@@ -1,5 +1,5 @@
 # spring-boot-web-security
-Simple example howto secure a Spring Boot web application with Spring Security.
+Simple example how to secure a Spring Boot web application with Spring Security.
 
 ## The application
 ...is built of five four (HTML-pages) and four Java-classes.
@@ -23,3 +23,7 @@ In memory-store for users.
 MVC-specific configuration, for example views.
 #### WebSecurityConfig.java
 Secuurity configuration.
+
+## Try it
+1. gradle bootRun
+2. Open browser at [http://localhost:8080](http://localhost:8080) and follow the instructions.

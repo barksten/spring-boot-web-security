@@ -16,7 +16,7 @@ Can be viewed by any logged in user.
 #### /admin
 Can only be viewed by users with the ADMIN role.
 #### /sune
-Can be viewed by users with the ADMIN or SUNE role. (sune is my favourite variabel name)
+Can be viewed by users with the ADMIN or SUNE role. (sune is my favourite variable name)
 
 ### Java-classes
 #### Application.java

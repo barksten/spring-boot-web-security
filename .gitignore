@@ -8,3 +8,6 @@ target/
 work/
 .idea/
 *.iml
+gradle/
+gradlew
+gradlew.bat
